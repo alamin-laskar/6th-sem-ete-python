@@ -1,0 +1,15 @@
+Code Explanation
+1. Function: operator(a, b)
+This function is intended to take two input values (a and b); however, it overwrites them with True and False, making user inputs ineffective. To use actual inputs, we should remove a, b = True, False.
+
+It demonstrates three logical operators:
+
+Logical AND (and) → Returns True if both operands are True, otherwise False.
+Logical OR (or) → Returns True if at least one operand is True.
+Logical NOT (not) → Negates the Boolean value (converts True to False and vice versa).
+
+
+2. Function: call()
+Prompts the user to enter two integers.
+Converts input values to Boolean (0 is False, nonzero values are True).
+Calls operator(a, b) with Boolean-converted values.

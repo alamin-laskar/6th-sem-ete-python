@@ -1,0 +1,49 @@
+Python Identity, Membership, and Ternary Operators Demonstration
+Overview
+    This Python program demonstrates three important types of operators:
+
+    Identity Operators (is, is not) – Used to check if two variables refer to the same object in memory.
+    Membership Operators (in, not in) – Used to check if a value is present in a sequence (list, tuple, string, etc.).
+    Ternary Operator (Conditional Expression) – A shorthand for if-else statements.
+
+
+
+Code Explanation
+1. Identity Operators (is, is not)
+Identity operators compare the memory addresses of objects rather than their values.
+    a = [1, 2, 3]
+    b = a
+    c = [1, 2, 3]
+
+    print(a is b)  # True - 'b' refers to the same object as 'a'
+    print(a is c)  # False - 'c' is a different object, even though its content matches 'a'
+    print(a is not c)  # True - 'a' and 'c' are different objects in memory
+
+a is b returns True because b is assigned to a, making them the same object.
+a is c returns False because c is a separate list, even though it contains the same values as a.
+a is not c returns True because a and c are different objects.
+
+
+
+2. Membership Operators (in, not in)
+Membership operators check whether a value exists within a sequence.
+
+    nums = [1, 2, 3, 4, 5]
+    print(3 in nums)   # True - 3 is in the list
+    print(6 not in nums)  # True - 6 is NOT in the list
+
+
+3 in nums returns True because 3 is an element of the list nums.
+6 not in nums returns True because 6 is absent from the list.
+
+
+3. Ternary Operator (Conditional Expression)
+The ternary operator is a compact way to write an if-else statement.
+
+    x, y = 10, 20
+    min_value = x if x < y else y
+    print("Minimum:", min_value)  # Output: Minimum: 10
+
+
+If x is smaller than y, x is assigned to min_value; otherwise, y is assigned.
+Since 10 < 20 is True, min_value becomes 10.
