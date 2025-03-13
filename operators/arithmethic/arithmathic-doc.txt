@@ -1,0 +1,32 @@
+Python Arithmetic Operations Program
+
+
+Overview:
+
+    This program performs various arithmetic operations on two numbers entered by the user. It includes addition, subtraction, multiplication, division, floor division, modulus, and exponentiation.
+
+    The program consists of two functions:
+
+    operator(a, b) – Performs and displays the arithmetic operations.
+    call() – Takes user input and calls the operator() function.
+
+Code Explanation
+1. Function: operator(a, b)
+This function takes two numbers (a and b) as input parameters and performs the following arithmetic operations:
+
+Addition (+) → Adds a and b.
+Subtraction (-) → Subtracts b from a.
+Multiplication (*) → Multiplies a and b.
+Division (/) → Divides a by b, resulting in a floating-point number.
+Floor Division (//) → Divides a by b and rounds down to the nearest integer.
+Modulus (%) → Returns the remainder when a is divided by b.
+Exponentiation (**) → Raises a to the power of b.
+
+2. Function: call()
+Takes user input:
+Prompts the user to enter two numbers (num1 and num2).
+Converts the inputs to integers.
+Calls the operator() function with the user-provided values.
+
+3. Calling the call() Function
+At the end of the script, call() is executed, ensuring that the program runs when executed.

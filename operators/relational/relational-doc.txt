@@ -1,0 +1,16 @@
+Code Explanation
+1. Function: operator(x, y)
+This function performs six relational (comparison) operations:
+
+Equal to (==) → Returns True if x is equal to y.
+Not equal to (!=) → Returns True if x is not equal to y.
+Greater than (>) → Returns True if x is greater than y.
+Less than (<) → Returns True if x is less than y.
+Greater than or equal to (>=) → Returns True if x is greater than or equal to y.
+Less than or equal to (<=) → Returns True if x is less than or equal to y.
+
+2. Function: call()
+Prompts the user to enter two numbers.
+Converts the input values to integers.
+Calls operator(x, y) to perform comparisons.
+

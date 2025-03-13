@@ -1,0 +1,30 @@
+Python Program for Bitwise Operations
+Overview:
+    This Python program demonstrates various bitwise operations on two numbers provided by the user. Bitwise operators perform operations at the binary level, manipulating individual bits of integers.
+
+    The program consists of two functions:
+
+    operator(x, y) – Performs bitwise operations and displays results.
+    call() – Takes user input and calls the operator() function.
+
+Code Explanation
+1. Function: operator(x, y)
+This function is intended to take two input values (x and y); however, it overwrites them with 5 and 3, which prevents the user-input values from being used. This can be corrected by removing the reassignment (x, y = 5, 3).
+
+The function performs the following bitwise operations:
+
+Bitwise AND (&) → Sets each bit to 1 if both bits are 1.
+Bitwise OR (|) → Sets each bit to 1 if at least one of the bits is 1.
+Bitwise XOR (^) → Sets each bit to 1 if only one of the bits is 1.
+Bitwise NOT (~) → Inverts all bits (equivalent to -(x + 1)).
+Bitwise Left Shift (<<) → Shifts bits left, multiplying by 2^n.
+Bitwise Right Shift (>>) → Shifts bits right, dividing by 2^n.
+
+
+2. Function: call()
+Prompts the user to enter two integers.
+Converts the input values to integers.
+Calls the operator(x, y) function to perform bitwise operations.
+
+3. Executing the Program
+The script ends by calling call(), ensuring that user input is taken and processed when the script runs.
