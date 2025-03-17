@@ -1,0 +1,1 @@
+# Write a program to add a number and a string. Observe the output. Is it running fine? If it is incorrect, correct it. 
