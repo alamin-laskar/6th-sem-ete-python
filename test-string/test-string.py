@@ -41,6 +41,8 @@ def call():
     test_txt = "ankara messi suiooooo"
     print(test_txt.isspace())
 
+    print(test_txt.count())
+
 call()
 
 
