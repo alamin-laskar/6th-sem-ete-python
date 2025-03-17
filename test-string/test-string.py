@@ -38,10 +38,10 @@ def call():
 
     SPACE = "  "
     print(SPACE.isspace())
-    test_txt = "ankara messi suiooooo"
+    test_txt = "ankara messi ankara messi ankara messi suiooooo"
     print(test_txt.isspace())
 
-    print(test_txt.count())
+    print(test_txt.count("messi"))
 
 call()
 
