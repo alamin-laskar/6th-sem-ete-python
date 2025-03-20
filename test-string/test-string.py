@@ -13,35 +13,35 @@ def call():
     text1 = "welcome to rasplandor"
     print(text+" "+text1)
 
-    print(text1.capitalize())
-    print(text1*3)
-    print(text1.startswith("to"))
-    print(text1.endswith("rasplandor"))
-    print(text1.replace("rasplandor","BVEC"))
-    print(text1.split(" "))
-    print(text1.find("from"))
-    print(text1.strip())
+    print("capitalize:",text1.capitalize())
+    print("replicate: ",text1*3)
+    print("startswith: ",text1.startswith("to"))
+    print("endswith:",text1.endswith("rasplandor"))
+    print("replace: ",text1.replace("rasplandor","BVEC"))
+    print("split: ",text1.split())
+    print("find:",text1.find("from"))
+    print("strip:",text1.strip())
 
 
     words = ["hello", "world"]
-    print("".join(words))  
-    print(text.title())
+    print("join:","".join(words))  
+    print("title: ",text.title())
     
 
     digit = "12345"
-    print(digit.isdigit())  
-    print("123abc".isdigit()) 
-    print(text1.isalpha()) 
+    print("isdigit: ", digit.isdigit())  
+    print("isdigit: ","123abc".isdigit()) 
+    print("isalpha: ",text1.isalpha()) 
     alpha_num = "hello1234"
-    print(alpha_num.isalpha())
+    print("isalpha: ",alpha_num.isalpha())
 
 
     SPACE = "  "
-    print(SPACE.isspace())
+    print("ispace: ",SPACE.isspace())
     test_txt = "ankara messi ankara messi ankara messi suiooooo"
-    print(test_txt.isspace())
+    print("ispace: ",test_txt.isspace())
 
-    print(test_txt.count("messi"))
+    print("count messi:  ",test_txt.count("messi"))
 
 call()
 

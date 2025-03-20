@@ -1,8 +1,13 @@
 #  Write a program using while loop find sum of the following series. 1+3+5+7+……+N
 def calculate(n):
     sum =0
-    for i in range(1,n,2):
+    # for i in range(1,n,2):
+    #     sum+=i
+
+    i=1
+    while(i<=n):
         sum+=i
+        i+=2
         
     return sum
 def take_input():
