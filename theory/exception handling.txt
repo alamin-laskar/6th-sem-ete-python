@@ -1,0 +1,12 @@
+def strin_utils() :
+    peint(name)
+
+def strin_utils():
+    print("BVEC)
+
+
+
+try : 
+    print("je;;")
+except:
+    print("except")

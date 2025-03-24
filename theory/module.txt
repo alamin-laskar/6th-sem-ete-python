@@ -1,0 +1,16 @@
+from cmath import ceil
+import ceil
+from cmath import *
+
+
+Local and global variable
+
+var =10
+def local_global():
+    global var = 43 #this global keyword globalizes the local variable
+
+
+
+
+
+

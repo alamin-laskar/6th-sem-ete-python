@@ -1,0 +1,10 @@
+#print bvec 10 times & store in a file
+
+#file operation
+open a file 
+read/write a file
+close file
+
+
+CODE
+with(file.name, r)   # r stands for read
